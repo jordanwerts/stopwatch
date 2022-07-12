@@ -2,10 +2,6 @@ body {
   margin-top: 10vh;
 }
 
-#container {
-  
-}
-
 #stopwatch {
   margin-left: 8vh;
   width: 80vh;
@@ -26,7 +22,7 @@ body {
   text-align: left;
   text-indent: 9vh;
   width: 70vh;
-  border: solid black 1vw;
+  border: solid black 1vh;
 }
 
 #toggle {
