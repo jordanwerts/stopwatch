@@ -26,7 +26,7 @@ body {
   text-align: left;
   text-indent: 9vh;
   width: 70vh;
-  border: solid; black; 1vw;
+  border: solid black 1vw;
 }
 
 #toggle {
@@ -84,7 +84,7 @@ button:hover {
     margin-left: 5vw;
     text-indent: 9vw;
     width: 70vw;
-    border: solid; black 1vw;
+    border: solid black 1vw;
   }
   
   #toggle {
