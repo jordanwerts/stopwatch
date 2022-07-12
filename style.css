@@ -1,61 +1,115 @@
 body {
-  margin-top: 20vw;
+  margin-top: 10vh;
+}
+
+#container {
+  
 }
 
 #stopwatch {
-  margin-left: 8vw;
-  width: 80vw;
-  height: 80vw;
-  border-radius: 40vw;
+  margin-left: 8vh;
+  width: 80vh;
+  height: 80vh;
+  border-radius: 40vh;
   background-color: gray;
   text-align: center;
-  border: solid black 1vw;
+  border: solid black 1vh;
 }
 
+
 #timer {
-  margin-top: 20vw;
+  margin-top: 20vh;
   font-family: "Lobster";
-  font-size: 10vw;
+  font-size: 10vh;
   font-weight: 300;
-  margin-left: 5vw;
+  margin-left: 5vh;
   text-align: left;
-  text-indent: 9vw;
-  width: 70vw;
+  text-indent: 9vh;
+  width: 70vh;
   border: solid; black; 1vw;
 }
 
 #toggle {
-  positiion: relative;
-  left: 2vw;
+  left: 2vh;
   background-color: black;  
   color: white;
-  font-size: 5vw;
+  font-size: 5vh;
   font-family: "Lobster";
-  width: 30vw;
-  height: 10vw;
-  transform: rotate(-42deg) translateX(-12vw) translateY(-5vw);
+  width: 30vh;
+  height: 10vh;
+  transform: rotate(-42deg) translateX(-12vh) translateY(-5vh);
 }
 
 #reset {
   background-color: black;  
   color: white;
-  font-size: 5vw;
+  font-size: 5vh;
   font-family: "Lobster";
-  width: 30vw;
-  height: 10vw;
-  transform: rotate(42deg) translateX(12vw) translateY(-5vw);
+  width: 30vh;
+  height: 10vh;
+  transform: rotate(42deg) translateX(12vh) translateY(-5vh);
 }
 
 #toggle:active {
-  height: 7vw;
-  transform: rotate(-42deg) translateX(-12vw) translateY(-4vw);
+  height: 7vh;
+  transform: rotate(-42deg) translateX(-12vh) translateY(-4vh);
 }
 
 #reset:active {
-  height: 7vw;
-  transform: rotate(42deg) translateX(12vw) translateY(-4vw);
+  height: 7vh;
+  transform: rotate(42deg) translateX(12vh) translateY(-4vh);
 }
   
 button:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  body {
+    margin-top: 10vw;
+  }
+  #stopwatch {
+    margin-left: 8vw;
+    width: 80vw;
+    height: 80vw;
+    border-radius: 40vw;
+    border: solid black 1vw;
+  }
+  
+  
+  #timer {
+    margin-top: 20vw;
+    font-size: 10vw;
+    font-weight: 300;
+    margin-left: 5vw;
+    text-indent: 9vw;
+    width: 70vw;
+    border: solid; black 1vw;
+  }
+  
+  #toggle {
+    left: 2vw;
+    font-size: 5vw;
+    width: 30vw;
+    height: 10vw;
+    transform: rotate(-42deg) translateX(-12vw) translateY(-5vw);
+  }
+  
+  #reset {
+    font-size: 5vw;
+    width: 30vw;
+    height: 10vw;
+    transform: rotate(42deg) translateX(12vw) translateY(-5vw);
+  }
+  
+  #toggle:active {
+    height: 7vw;
+    transform: rotate(-42deg) translateX(-12vw) translateY(-4vw);
+  }
+  
+  #reset:active {
+    height: 7vw;
+    transform: rotate(42deg) translateX(12vw) translateY(-4vw);
+  }
+
 }
