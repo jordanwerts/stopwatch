@@ -12,7 +12,6 @@ body {
   border: solid black 1vh;
 }
 
-
 #timer {
   margin-top: 20vh;
   font-family: "Lobster";
@@ -72,7 +71,6 @@ button:hover {
     border: solid black 1vw;
   }
   
-  
   #timer {
     margin-top: 20vw;
     font-size: 10vw;
@@ -81,6 +79,7 @@ button:hover {
     text-indent: 9vw;
     width: 70vw;
     border: solid black 1vw;
+    background-color: rgb(42, 177, 182);
   }
   
   #toggle {
