@@ -22,6 +22,7 @@ body {
   text-indent: 9vh;
   width: 70vh;
   border: solid black 1vh;
+  background-color: rgb(42, 177, 182);
 }
 
 #toggle {
@@ -79,7 +80,6 @@ button:hover {
     text-indent: 9vw;
     width: 70vw;
     border: solid black 1vw;
-    background-color: rgb(42, 177, 182);
   }
   
   #toggle {
